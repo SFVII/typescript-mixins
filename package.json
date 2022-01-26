@@ -1,7 +1,7 @@
 {
   "name": "ts-mixins",
-  "version": "1.0.0",
-  "description": "2 factor authenticator service for whole app",
+  "version": "1.0.1",
+  "description": "Mixins tricks library",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
