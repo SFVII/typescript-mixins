@@ -17,7 +17,7 @@ const applyMixins = (derivedCtor: any, constructors: any[]) => {
             );
         });
     });
-    return derivedCtor.prototype;
+    return constructors;
 }
 
 export {Mixins, applyMixins};
