@@ -17,7 +17,7 @@ const applyMixins = (derivedCtor: any, constructors: any[]) => {
             );
         });
     });
-    return constructors;
+    return derivedCtor;
 }
 
 export {Mixins, applyMixins};

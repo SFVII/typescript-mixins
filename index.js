@@ -14,6 +14,6 @@ const applyMixins = (derivedCtor, constructors) => {
                 Object.create(null));
         });
     });
-    return constructors;
+    return derivedCtor;
 };
 exports.applyMixins = applyMixins;
